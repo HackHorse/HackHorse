@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Gajraj+One&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+@media only screen and (max-width: 640px) and (min-width: 414px) {
+
+    body {font-size:1rem;} 
+
+    h2 {
+        font-size: 1.7rem;
+        font-weight: 600;
+        margin-bottom: 1rem;
+    }
+
+    #introCard{
+        padding-top: 10rem!important;
+      }
+
+    .experienceYear{
+        border-top-right-radius: 50% 50% !important;
+        border-top-left-radius: 50% 50% !important;
+        border-bottom-right-radius: 0% 0% !important;
+        border-bottom-left-radius: 0% 0% !important;
+        margin-top: 2rem;
+    }
+    .experienceYearNum{
+        margin-top: -0.5rem !important;
+      }
+
+    .cardrow {
+        padding-left: calc(var(--bs-gutter-x) * 1.0) !important;
+    }
+
+    .cardcol{
+        margin-bottom: calc(var(--bs-gutter-x) * 1.5);
+    }
+
+    .css-1m3p9o7 {
+        width: 335px !important;
+    }
+    
+}
+
+@media only screen and (min-width: 320px) {
+
+    body {font-size:1rem;} 
+
+    h2 {
+        font-size: 1.7rem;
+        font-weight: 600;
+        margin-bottom: 1rem;
+    }
+
+    #introCard{
+        padding-top: 4rem!important;
+      }
+
+      span.boldState{
+        font-size: 2rem !important;
+        font-weight: 600 !important;
+        border-bottom: 5px solid #fff;
+      }
+
+
+      a.scrollarrow:after {
+        color: #333;
+        content: '\02193';
+        font-size: 40px;
+        position: absolute;
+        top: 50%;
+        margin-top: -28px;
+        left: 44%;
+        margin-left: -10px;
+        animation: occasional-arrow-bounce 3s infinite 2s alternate ease-out;
+      }
+
+
+    .experienceYear{
+        border-top-right-radius: 50% 50% !important;
+        border-top-left-radius: 50% 50% !important;
+        border-bottom-right-radius: 0% 0% !important;
+        border-bottom-left-radius: 0% 0% !important;
+        margin-top: 2rem;
+    }
+    .experienceYearNum{
+        margin-top: -0.5rem !important;
+      }
+
+    .cardrow {
+        padding-left: calc(var(--bs-gutter-x) * 0.5) !important;
+    }
+
+    .cardcol{
+        margin-bottom: calc(var(--bs-gutter-x) * 1.5);
+    }
+
+    .css-1m3p9o7 {
+        width: 335px !important;
+    }
+
+    .serviceContainer{
+        padding-left: 0 !important;
+      }
+}
+
+
+
+@media only screen and (min-width:960px) { 
+    body {font-size:1rem;} 
+
+    h2 {
+        font-size: 2.5rem;
+        font-weight: 700;
+        margin-bottom: 1rem;
+    }
+
+    #introCard{
+        padding-top: 12rem!important;
+      }
+      span.boldState{
+        font-size: 3rem !important;
+        font-weight: 700 !important;
+        border-bottom: 5px solid #fff;
+      }
+
+      a.scrollarrow:after {
+        color: #333;
+        content: '\02193';
+        font-size: 40px;
+        position: absolute;
+        top: 50%;
+        margin-top: -28px;
+        left: 47%;
+        margin-left: -10px;
+        animation: occasional-arrow-bounce 3s infinite 2s alternate ease-out;
+      }
+
+
+    .css-1m3p9o7 {
+        width: 600px !important;
+    }
+    .cardrow {
+        padding-left: calc(var(--bs-gutter-x) * 2.5) !important;
+    }
+
+}
